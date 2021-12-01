@@ -1,0 +1,22 @@
+<style type='text/scss'>
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+#awesome {
+  @include border-radius(15px);
+  }
+
+
+  #awesome {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+  }
+</style>
+
+<div id="awesome"></div>
