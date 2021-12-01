@@ -1,0 +1,27 @@
+$("#target2").appendTo("#right-well");
+
+// to change its location
+
+$("#target5").clone().appendTo("#left-well");
+
+// to copy target (clone) and move it (appendTo)
+
+$("#target1").parent().css("background-color", "red");
+
+// to get parent selector
+
+$("#right-well").children().css("color", "orange");
+
+// to select children of target
+
+$(".target:nth-child(2)").addClass("animated bounce");
+
+// to choose class target that as second child
+
+$(".target:even").addClass("animated shake");
+
+// we can choose it using even and odd
+
+$("body").addClass("animated hinge");
+
+// we can target body as well, using "hinge" for animation
